@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Registro de cliente</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles-ejercicio-1-formularios.css" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <h3>Registro</h3>
+            <form name="registro-cliente" autocomplete="on">
+                
+                <label for="name">Nombre<input type="text" id="name" placeholder="Ada"></label>
+                <label for="last-name">Apellido<input type="text" id="last-name" placeholder="Lovelace"></label>
+                <label for="dni">DNI<input type="number" id="dni" maxlength="8" max="99999999" placeholder="12345678"></label>
+                <label for="email">Email<input type="email" id="email" placeholder="adalovelace@gmail.com"></label>
+                <label for="password">Contraseña<input type="password" id="password" maxlength="16" minlength="8" placeholder="PepiTo85abc"> <span>La contraseña debe poseer un mínimo de 8 caracteres y un máximo de 16 caracteres</span></label>
+                <label for="terms-and-conditions">Acepto <a href="#">términos y condiciones de uso</a><input type="checkbox" id="terms-and-conditions"></label>
+                <button type="submit">Enviar</button>
+            </form>
+        </main>
+    </body>
+
+</html>
